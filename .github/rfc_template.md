@@ -1,26 +1,32 @@
-# Pull Request for RFC: [RFC Title]
+# RFC PR: Pull Request for RFC: [RFC Title]
 *RFC Markdown Link*: [Insert Link to RFC]
 
-## Overview
+## Any PR: Overview
+
+#### For All other PRs
+
+Give a quick overview that would summarize the changes. There is no reason to be super verbose here. Keep it simple and to the point!
+
+If the PR is associated to an RFC then please Link that in the "relevant issues" section
+
+#### For RFCs
 
 This pull request aims to implement the changes as described in the [RFC Title] RFC. The main goal is to merge the existing RFC into the project codebase and introduce the new feature(s), bug fix(es), or architectural change(s) outlined in the RFC.
 
 Keep in mind that you want all images to live in `force-build/docs/imgs/`
 
-## Key Changes
+## Not for RFCs: Key Changes
 
 The following changes have been introduced as part of this pull request:
 
 - **[Feature/Change 1]**: Describe the feature or change being implemented.
 - **[Feature/Change 2]**: Describe the feature or change being implemented.
 - **[Feature/Change 3]**: Describe the feature or change being implemented.
-  
-For more details on these changes, please refer to the RFC.
 
-## Relevant RFC Sections
+## Relevant issues and PRs
 
-- **Section 1**: Explanation or summary of the relevant section and how it has been implemented.
-- **Section 2**: Explanation or summary of the relevant section and how it has been implemented.
+- **PR**: this can also be a link to the relevant RFC if you are now implementing that in code.
+- **Issue**: if this was completed by a ticket raised as a github issue.
 
 ## Backward Compatibility
 
@@ -35,7 +41,6 @@ For more details on these changes, please refer to the RFC.
 
 ## Checklist
 
-- [ ] RFC is fully implemented.
 - [ ] Code changes have been reviewed.
 - [ ] Tests have been updated and verified.
 - [ ] Documentation has been updated (if applicable).

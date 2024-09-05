@@ -20,8 +20,6 @@ The lab, ideally, will have frequent usage and turnover of projects with many of
 ## Proposal: Force Build
 <p align="center">
   <img src="../imgs/ForceBuild.png" />
-  <br />
-  <em>Use the force! Save the dream!</em>
 </p>
 
 

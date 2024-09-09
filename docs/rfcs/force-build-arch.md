@@ -11,8 +11,6 @@ The lab, ideally, will have frequent usage and turnover of projects with many of
 - Make: referring to GNU Make -- aka make files
 - YAML: Yet Another Markup Language, used primarily for process automation with workflows and pipelines by creating the scope/content of each stage
 
-#### Nomenclature
-
 
 
 ## Motivation 
@@ -37,7 +35,7 @@ In addition to the local tooling, this force build repo will allow for ease-of-u
 
 #### DataLoader
 
-A large piece of this automation tooling working properly is having a solid DataLoader that is abstract enough to handle the myriad of datasets we currently leverage, which will likely grow as more data unfolds.
+A large piece of this automation tooling working properly is having a solid `DataLoader` that is abstract enough to handle the myriad of datasets we currently leverage, which will likely grow as more data unfolds.
 The biggest key here should be forcing a data type. We should focus on using a `TensorDataset`, which is just a way of having all the data already converted into Tensors. You can think of this as a way to preprocess your data into a format that is agnostic to the specifics around the data you are utilizing at the time of training. 
 
 In the purple box above, you can visualize the workflow here as 2 unique build styles surrounding a config file that will carry needed metadata. The `CustomExt` portion is just a way to override the common `DataLoader` in case of any optimization strategies around the actual data loading component of a training pipeline. This will be the extensible portion of the base class object of the `DataLoader`. It should be noted that the `CustomExt` is purely an optional add-in and completely up to the developer/researcher.

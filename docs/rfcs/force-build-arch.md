@@ -16,6 +16,8 @@ The lab, ideally, will have frequent usage and turnover of projects with many of
 
 
 ## Motivation 
+As the lab scales in size and number of projects grows with it, we will have an increasing need of a quick way to bounce between projects. 
+Currently, the level of effort involved in context switching to a new project is a bit unwieldy. Additionally, there are oftentimes a large need for extremely robust ablation studies, which will need to be tested under the same environment and constraints as the other implementations. Both of these issues can be solved with an easy to use framework of Force Build using a design approach of modularity and scalability.
 
 ## Proposal: Force Build
 <p align="center">

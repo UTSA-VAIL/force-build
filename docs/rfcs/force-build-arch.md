@@ -26,6 +26,16 @@ Currently, the level of effort involved in context switching to a new project is
 
 
 #### Summary
+The idea behind Force Build is to have a quick set of local tooling at your disposal. It will consume whichever component of the Deep Learning pipeline you are currently working with and inherit the rest from a `common` build. 
+
+In addition to the local tooling, this force build repo will allow for ease-of-use around deployments and training pipelines. We can automate the job deployments to servers and workstations so that we can better make use of our time and resources. This will be an easy way to ensure you are running uniformly as well as being able to have evaluations and metrics 1:1 match across all ablation studies. 
+
+
+### Pipeline Strategy
+
+<p align="center">
+  <img src="../imgs/ForceBuildPipelines.png" />
+</p>
 
 ####  Dataloader Streamlining
 

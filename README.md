@@ -13,6 +13,6 @@ This build tool aims to be the foundation for all things research in VAIL, as fa
 We will accomplish this in a set of easy to follow principles surrounding Force Build:
 
 - Features that live here will be agnostic to research
-- Any and all research will need to follow the build paradigm outlined in this repo
+- Any and all research **should** follow the build paradigm outlined in this repo, if you want the benefit of this repo
 - This repo will simplify the process
 - Every feature added to force build will be a net gain to your research endeavors
